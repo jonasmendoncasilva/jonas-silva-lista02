@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Verificador</title>
+</head>
+<body>
+    <section id="" style="background-color: rgb(173, 174, 254);">
+        <h1 style="color: white;"> Verificador de Idade</h1>
+        <div style="background-color: white;">
+            <p> Ano de Nascimento: <input type="text" id="entrada"></p>
+            <p> 
+                Sexo:
+                <div id="radio">
+                    <label><input type="radio" value="masculino" name="sexo" id="m"> Masculino</label>
+                    <label><input type="radio" value="feminino" name="sexo" id="f"> Feminino</label>
+                </div>
+            </p>
+            <p><button onclick="verificar()"> Verificar</button></p>
+            <p>Prencha os dados acima para ver o resultado...</p>
+        
+            <p><span id="resultado"></span></p>
+            <img alt="foto de uma pessoa" id="foto">
+        </div>
+        <footer>
+            <p style="color: white;">&copy; Uniderp</p>
+        </footer>
+    </section>
+        
+    <script src="script.js"></script>
+</body>
+</html>
